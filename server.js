@@ -1,18 +1,16 @@
 var express = require('express');
-
 var bodyParser = require('body-parser');
+const mongodb = require('./db/connect');
 
 const port = process.env.PORT || 8080;
 
-const mongodb = require('./db/connect');
 var app = express();
 
-app.use("/",require('./routes'));
 
-app.listen(8080, () => {
-    console.log(`Server is running on port ${port}`);
+// app.listen(8080, () => {
+//     console.log(`Server is running on port ${port}`);
 
-})
+// })
 
 app
   .use(bodyParser.json())
