@@ -1,0 +1,21 @@
+{
+    "contact1": {
+        "firstName": "Alondra",
+        "LastName": "Sanchez",
+        "email": "alocecy21@gmail.com",
+        "favoriteColor": "Red",
+        "birthday": "2/9/2002"
+    },"contact2": {
+        "firstName": "Saul",
+        "LastName": "Pena",
+        "email": "saulpenass@gmail.com",
+        "favoriteColor": "Blue",
+        "birthday": "6/28/1995"
+    },"contact3": {
+        "firstName": "Idalia",
+        "LastName": "Garcia",
+        "email": "idalia.pq@gmail.com",
+        "favoriteColor": "Yellow",
+        "birthday": "9/11/1992"
+    }
+}
