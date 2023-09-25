@@ -3,7 +3,7 @@
         "firstName": "Alondra",
         "LastName": "Sanchez",
         "email": "alocecy21@gmail.com",
-        "favoriteColor": "Red",
+        "favoriteColor": "Purple",
         "birthday": "2/9/2002"
     },"contact2": {
         "firstName": "Saul",
@@ -15,7 +15,7 @@
         "firstName": "Idalia",
         "LastName": "Garcia",
         "email": "idalia.pq@gmail.com",
-        "favoriteColor": "Yellow",
+        "favoriteColor": "Green",
         "birthday": "9/11/1992"
     }
 }
