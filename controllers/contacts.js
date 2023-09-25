@@ -19,7 +19,7 @@ const getSingle = async (req,res, next) => {
     .find({_id: userId});
     result.toArray().then((lists) => {
         res.setHeader('Content-type', 'application/json');
-        res.status(200).json(lists[0]);
+        res.status(201).json(lists[0]);
 
     });
 };
