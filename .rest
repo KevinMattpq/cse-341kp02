@@ -3,3 +3,61 @@ GET http://localhost:8080 HTTP/1.1
 # Request for Render Link 
 ###
 GET https://cse-341kp02.onrender.com HTTP/1.1
+
+# PERSONAL ASSIGNMENT 03
+
+# Checking createContact locally
+###
+POST http://localhost:8080/contacts HTTP/1.1
+Content-type: application/json
+
+{
+    "firstName": "Samuel",
+    "lastName": "Garcia",
+    "email": "garciag.samuel@gmail.com",
+    "favoriteColor": "Black",
+    "birthday": "4/12/1990"
+}
+
+###
+#Checking UpdateContact locally
+PUT http://localhost:8080/contacts/6518bbc6367432f2a19aba62   HTTP/1.1
+Content-type: application/json
+
+{
+    "firstName": "Idalia",
+    "lastName": "Garcia",
+    "email": "idaliaNewemail.pq@gmail.com",
+    "favoriteColor": "Blue",
+    "birthday": "4/12/1990"
+}
+###
+# Checking Delete Contact Locally
+
+DELETE http://localhost:8080/contacts/6518bba6367432f2a19aba60 HTTP/1.1
+
+
+
+
+###
+# Checking createContact Render
+{
+    "firstName": "Samuel",
+    "lastName": "Garcia",
+    "email": "garciag.samuel@gmail.com",
+    "favoriteColor": "Black",
+    "birthday": "4/12/1990"
+}
+###
+#Checking UpdateContact Render
+{
+    "firstName": "Idalia",
+    "lastName": "Garcia",
+    "email": "idaliaNewemail.pq@gmail.com",
+    "favoriteColor": "Blue",
+    "birthday": "4/12/1990"
+}
+###
+# Checking Delete Contact Render.
+
+
