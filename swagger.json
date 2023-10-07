@@ -5,10 +5,11 @@
     "description": "Contacts API Personal Assignment 04",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "cse-341kp02.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "http",
+    "https"
   ],
   "paths": {
     "/contacts/": {
