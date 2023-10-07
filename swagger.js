@@ -5,7 +5,8 @@ const doc = {
     title: 'My Contacts API',
     description: 'Contacts API Personal Assignment 04',
   },
-  host: 'localhost:8080',
+//   to test locally write localhost:8080
+  host: 'https://cse-341kp02.onrender.com/', 
   schemes: ['http'],
 };
 
